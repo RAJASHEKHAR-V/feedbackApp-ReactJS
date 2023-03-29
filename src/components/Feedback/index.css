@@ -1,0 +1,125 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  min-height: 50vh;
+  width: 50%;
+  border-radius: 15px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.support-feedback {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-weight: bold;
+  text-align: center;
+}
+.emoji-body {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.emoji-card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.emoji {
+  width: 40%;
+  cursor: pointer;
+}
+
+.emoji-name {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: normal;
+}
+
+/* Below css belongs to the reply from support */
+
+.love-emoji {
+  width: 10%;
+}
+
+.emoji-status {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-weight: bold;
+}
+
+.emoji-reply {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: normal;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 70%;
+  }
+  .support-feedback {
+    font-size: 25px;
+  }
+
+  .emoji-card {
+    width: 25%;
+  }
+
+  .emoji {
+    width: 50%;
+  }
+
+  .emoji-name {
+    font-size: 15px;
+  }
+
+  /* Below css belongs to the reply from support */
+
+  .love-emoji {
+    width: 20%;
+  }
+
+  .emoji-status {
+    font-size: 25px;
+  }
+
+  .emoji-reply {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .support-feedback {
+    font-size: 30px;
+  }
+
+  .emoji-name {
+    font-size: 18px;
+  }
+
+  /* Below css belongs to the reply from support */
+
+  .emoji-status {
+    font-size: 30px;
+  }
+
+  .emoji-reply {
+    font-size: 18px;
+  }
+}
